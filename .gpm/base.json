@@ -1,0 +1,8 @@
+{
+    "base_path": "/var/projects/buzz/buzz-intern-server/product/.gpm/base.json",
+    "gpm_path": "/var/projects/buzz/buzz-intern-server/product/.gpm",
+    "name": "dj-product",
+    "project_type": "module",
+    "repository_url": "https://github.com/px57/dj-product.git",
+    "root_path": "/var/projects/buzz/buzz-intern-server/product"
+}
