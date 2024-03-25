@@ -1,5 +1,5 @@
 
 
-from kernel.interfaces.stack import RulesStack
+from gpm.interfaces.stack import RulesStack
 
 NOTIFICATION_RULESTACK = RulesStack()
