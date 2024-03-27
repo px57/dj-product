@@ -18,6 +18,13 @@ class Product(BaseMetadataModel):
     """
     interface = PRODUCT_RULESTACK.InterfaceField()
 
+    uuid = models.CharField(
+        max_length=255,
+        unique=True,
+        null=True,
+        blank=True
+    )
+
     profile = models.ForeignKey(
         'profiles.Profile', 
         on_delete=models.CASCADE,

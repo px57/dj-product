@@ -2,7 +2,6 @@
 
 from django.utils import timezone
 import os
-from notification.rules.stack import PRODUCT_RULESTACK
 from gpm.interfaces.interfaces import InterfaceManager
 import PIL
 
